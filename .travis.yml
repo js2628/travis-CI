@@ -9,8 +9,4 @@ node_js:
 # please update this section to your needs!
 notifications:
   irc: "irc.freenode.org#travis"
-  slack: "slack: continousintegration:bZ29JGk1Z6fAmEKdIKfUVBMo"
-    on_success: change # default: always
-    on_failure: always # default: always
-  
-
+  slack: 'continousintegration:bZ29JGk1Z6fAmEKdIKfUVBMo'
