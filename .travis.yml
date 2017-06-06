@@ -10,3 +10,8 @@ node_js:
 notifications:
   irc: "irc.freenode.org#travis"
   slack: 'continousintegration:bZ29JGk1Z6fAmEKdIKfUVBMo'
+
+sudo: required
+
+services:
+  - docker
