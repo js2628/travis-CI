@@ -1,15 +1,1 @@
-FROM node:boron
-
-# Create app directory
-RUN mkdir -p /node.js-master
-WORKDIR /node.js-master
-
-# Install app dependencies
-COPY package.json /node.js-master
-RUN npm install
-
-# Bundle app source
-COPY . /node.js-master
-
-EXPOSE 8080
-CMD [ "npm", "start" ]
+FROM node:0.6-onbuild
