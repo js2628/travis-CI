@@ -15,3 +15,6 @@ sudo: required
 
 services:
   - docker
+
+before_install: 
+  -docker build -t sjaya5/node.js-master
