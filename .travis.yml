@@ -17,4 +17,4 @@ services:
   - docker
 
 before_install: 
-  - docker build -t node.js-master
+  - docker build -t nodejsmaster
