@@ -17,7 +17,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "vows": "0.6.x"
+    "vows": "^0.8.1"
   }
 }
-
